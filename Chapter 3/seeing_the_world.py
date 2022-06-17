@@ -1,0 +1,26 @@
+from platform import python_version_tuple
+
+
+places_to_visit = ["Japan", "Rome", "Canada", "Scottland", "Ireland"]
+print("I'd like to visit these places:")
+print(places_to_visit)
+print("\nLook! I can print them alphabetical order:")
+print(sorted(places_to_visit))
+print("\nBut the original list is still in the same order:")
+print(places_to_visit)
+print("\nI can print in reverse alphabetical order too:")
+print(sorted(places_to_visit, reverse=True))
+print("\nAnd the original list is still unchanged:")
+print(places_to_visit)
+places_to_visit.reverse()
+print("\nNow the order of the list has been reversed:")
+print(places_to_visit)
+print("\nBut I can reverse it again to get back to the original order:")
+places_to_visit.reverse()
+print(places_to_visit)
+print("\nNow I'll permanently sort the list in alphabetical order:")
+places_to_visit.sort()
+print(places_to_visit)
+print("\nAnd now I'll permanently sort the list in reverse alphabetical order:")
+places_to_visit.sort(reverse=True)
+print(places_to_visit)
