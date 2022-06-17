@@ -1,0 +1,1 @@
+print("A wise man once said \"A wise man is afraid.\"")
