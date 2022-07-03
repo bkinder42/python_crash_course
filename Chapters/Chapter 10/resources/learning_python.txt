@@ -1,0 +1,4 @@
+In Pyhton you can create lists
+In Python you can print strings
+In Python you can do math
+In Python you can analyze data
